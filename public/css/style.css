@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1615150c;
+    margin: 0;
+    padding: 0;
+}
+h1, h2 {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    font-size: 36px;
+    color: #333;
+}
+h2 {
+    font-size: 24px;
+    color: #666;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+.col {
+    flex: 1;
+    margin: 0 10px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+.col h3 {
+    margin-top: 0;
+    font-size: 18px;
+    color: #333;
+}
+.col p {
+    margin: 10px 0 0;
+    color: #666;
+}
+.btn {
+    background-color: #4CAF50; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remove a borda do botão */
+    padding: 10px 20px; /* Adiciona padding ao botão */
+    text-align: center; /* Centraliza o texto no botão */
+    text-decoration: none; /* Remove a sublinhado do texto */
+    display: inline-block; /* Faz o botão se comportar como um elemento inline */
+    font-size: 16px; /* Define o tamanho da fonte do texto */
+    margin: 10px; /* Adiciona uma margem ao redor do botão */
+    cursor: pointer; /* Altera o cursor para o formato de mão quando o usuário passa o mouse sobre o botão */
+    border-radius: 5px; /* Define o raio da borda do botão */
+    transition-duration: 0.4s; /* Define a duração da transição quando o usuário passa o mouse sobre o botão */
+  }
+  /* Define a aparência do botão quando o usuário passa o mouse sobre ele */
+.btn:hover {
+    background-color: #458e3e;
+    color: white;
+  }
+
+.btn {
+    background-color: #4e4caf; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remove a borda do botão */
+    padding: 10px 20px; /* Adiciona padding ao botã*/
+} 
+  
+.card {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  img {
+    width: 200px; /* Define a largura da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-right: 10px; /* Adiciona uma margem à direita da imagem */
+    border-radius: 30%;
+  }
+  
+  
+ 
